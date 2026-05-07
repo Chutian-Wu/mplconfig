@@ -6,7 +6,7 @@ A tiny Python package that provides a single function `plot_config()` to apply c
 
 - One‑line configuration of figure DPI, font sizes, tick directions, line widths, etc.
 - Optional LaTeX text rendering (with `amsmath` and `bm` packages).
-- Works on any device with Matplotlib and Tex
+- Works on any device with Matplotlib.
 
 ## Requirements
 

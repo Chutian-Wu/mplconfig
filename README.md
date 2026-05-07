@@ -11,6 +11,4 @@ A tiny Python package that provides a single function `plot_config()` to apply c
 ## Installation
 
 ```bash
-pip install git+https://github.com/yourusername/mplconfig.git   # from git
-# or locally after downloading
-pip install .
+pip install git https://github.com/Chutian-Wu/mplconfig.git   # from git

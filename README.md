@@ -54,4 +54,4 @@ ax.set(
 plt.subplots_adjust(bottom=0.2, top=0.9)
 plt.savefig("example.png")
 ```
-!(images/example.png)
+![Example plot](https://raw.githubusercontent.com/Chutian-Wu/mplconfig/main/images/example.png)

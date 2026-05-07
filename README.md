@@ -20,11 +20,12 @@ import matplotlib.pyplot as plt
 from mplconfig import plot_config
 
 # Apply your preferred settings
-plot_config(latex=True, dpi=300, axeslabelsize=10)
+plot_config(latex=True)
 
 # Now create plots as usual
-plt.plot([1,2,3], [4,5,6])
-plt.xlabel("x label")
-plt.ylabel("y label")
-plt.savefig("figure.png")
+fig,ax=plt.subplots()
+x=np.linspace(0,np.pi*2,101)
+y=np.exp(np.sin(x))
+ax.plot(x,y)
+ax.set(xlabel=r'$x$,ylabel=r'$e^{\sin x}$)
 ```

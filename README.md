@@ -50,5 +50,7 @@ ax.set(
     ylim=(0, 3),
     xticks=np.linspace(0, 2, 3),
     yticks=np.linspace(0, 3, 4),
-);
+)
+plt.subplots_adjust(bottom=0.2, top=0.9)
+plt.savefig("example.png")
 ```

@@ -12,3 +12,19 @@ A tiny Python package that provides a single function `plot_config()` to apply c
 
 ```bash
 pip install git https://github.com/Chutian-Wu/mplconfig.git   # from git
+```
+
+## Usage
+```Python
+import matplotlib.pyplot as plt
+from mplconfig import plot_config
+
+# Apply your preferred settings
+plot_config(latex=True, dpi=300, axeslabelsize=10)
+
+# Now create plots as usual
+plt.plot([1,2,3], [4,5,6])
+plt.xlabel("x label")
+plt.ylabel("y label")
+plt.savefig("figure.png")
+```

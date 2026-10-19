@@ -53,7 +53,7 @@ def plot_config(
             {
                 "text.usetex": True,
                 "font.family": "serif",
-                "text.latex.preamble": r"\usepackage{amsmath, bm}",
+                "text.latex.preamble": r"\usepackage{amsmath, bm, siunitx}",
             }
         )
 
